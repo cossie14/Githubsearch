@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { Githubsearch } from './githubsearch';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
