@@ -1,7 +1,7 @@
 ## This is an application that enables a user to search for other users and their respective repositories using the github API.
 
 ## Project Name
-Angular GitHub Search -This project was generated with Angular CLI version 6.1.2.
+GitHub Search -This project was generated with Angular CLI version 6.1.2.
 
 ## Author
 Sylviah Rutto
@@ -14,7 +14,7 @@ This is an application that enables a user to search for other users and their r
 2 It displays github data searches upon request using a Github API<br>
 3 Enter the username of your choice<br>
 4 It displays the username entered and repositories respectively<br>
-5 It displays the number of followers
+5 It displays the number of followers.
 
 ## Technologies used
 1 Angular<br>
