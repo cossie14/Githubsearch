@@ -1,27 +1,26 @@
-# Githubsearch
+This is an application that enables a user to search for other users using the github API. It displays the searched user's name, details, a list of their repositories and links to those repos. 
+Project Name
+Angular GitHub Search -This project was generated with Angular CLI version 6.1.2.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
+Author
+Sylviah Rutto
 
-## Development server
+Description
+This is an application that enables a user to search for other users and their repositories
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+BDD
+1 Internet connection
+2 It displays github data searches upon request using a Github API
+3 Enter the username of your choice
+4 It displays the username entered and repositories respectively
 
-## Code scaffolding
+Technologies used
+1 Angular
+2 HTML
+3 CSS
+4 Bootstrap.
+License
+MIT License this application's source code is free for any open source projects
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+©Sylviah Rutto 2019| Moringa School
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
