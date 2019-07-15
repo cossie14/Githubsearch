@@ -1,4 +1,4 @@
-## This is an application that enables a user to search for other users using the github API. It displays the searched user's name, details, a list of their repositories and links to those repos. 
+## This is an application that enables a user to search for other users and their respective repositories using the github API.
 
 ## Project Name
 Angular GitHub Search -This project was generated with Angular CLI version 6.1.2.
