@@ -1,4 +1,3 @@
-  
 import { Directive ,ElementRef, HostListener} from '@angular/core';
 
 @Directive({
@@ -15,7 +14,6 @@ export class HighlightDirective {
       this.highlight(null);
     }
     private highlight(highlight: string){
-      this.elem.nativeElement.style.backgroundColor='grey';
+      this.elem.nativeElement.style.backgroundColor='yellow';
     }
   }
-

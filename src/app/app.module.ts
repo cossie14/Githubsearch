@@ -1,26 +1,37 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule, Routes } from '@angular/router';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GithubsearchComponent } from './githubsearch/githubsearch.component';
+import { MasterComponent } from './master/master.component';
+import { ApiService } from './api.service';
+import { RepoComponent } from './repo/repo.component'
+import { RoutingModule } from './routing/routing.module';
 import { HighlightDirective } from './highlight.directive';
-import { DateFormatPipe } from './date-format.pipe';
-import { ProfileFormComponent } from './profile-form/profile-form.component';
+
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    GithubsearchComponent,
+    MasterComponent,
+    RepoComponent,
     HighlightDirective,
-    DateFormatPipe,
-    ProfileFormComponent
+
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    HttpClientModule,
+    RoutingModule,
+
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
