@@ -2,7 +2,7 @@
 <br>
 <h1 style="text-align:center">GitHub Repositories</h1>
 <div class="container">
-  <div id="swara">
+  <div id="cos">
     <form class="form">
       <input type="text" class="form-control" placeholder="Search Username" [(ngModel)]="userName" name="userName"
         (keyup)="findUser()">
@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-4">
       
-          {{repos[i].pushed_at| date:short:timezone}}
+          {{repos[i].pushed_at| date}}
         </div>
         <div class="col-md-4">
           <a href="{{repos[i].html_url}}" target="_blank"><button class="btn-inline btn-outline-info">View on
