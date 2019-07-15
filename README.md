@@ -7,7 +7,7 @@ GitHub Search -This project was generated with Angular CLI version 6.1.2.
 Sylviah Rutto
 
 ## Description
-This is an application that enables a user to search for other users and their repositories.
+This is an application that enables a user to search and identify people's repositories.
 
 ## BDD
 1 Internet connection<br>
