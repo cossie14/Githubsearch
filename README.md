@@ -22,7 +22,7 @@ This is an application that enables a user to search and identify people's repos
 3 CSS<br>
 4 Bootstrap
 
-## Link
+## Link to the site
 https://cossie14.github.io/Githubsearch/
 
 ## License
